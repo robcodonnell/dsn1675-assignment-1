@@ -4,4 +4,71 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  
+}
+
+body {
+  margin: 0;
+  font-family: 'Droid Sans', sans-serif;
+  text-align: center;
+}
+header {
+  margin: 0;
+  text-align: center;
+
+
+}
+header h1 {
+  display: inline-block;
+  font-size: 1em;
+}
+header div {
+  font-family: 'Cinzel', serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #becfd9;
+}
+.button {
+  display: inline-block;
+  font-family: 'Droid Sans', sans-serif;
+  margin: 2%;
+  margin-right: 3%;
+  margin-top: 12px;
+  float: right;
+  font-size: 0.7em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #717371;
+  border-radius: 5px;
+  padding: 5px;
+}
+.logo {
+  float: left;
+  width: 45px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+header nav li {
+  display: inline;
+  width: 25%;
+  float: left;
+  padding: 12px;
+  font-size: 0.8em;
+  background-color: #717371;
+}
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+.panorama {
+  width: 100%;
+  position: relative;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
