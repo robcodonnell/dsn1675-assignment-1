@@ -132,3 +132,16 @@ dd {
   width: 100%;
 
 }
+.buy {
+  padding: 5px;
+}
+.prices a {
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #717371;
+  color: #fff;
+}
+.playing {
+  background-color: #8b6969;
+  color: #fff;
+}
