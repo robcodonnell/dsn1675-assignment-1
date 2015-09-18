@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: 'Droid Sans', sans-serif;
   text-align: center;
+  background-color: #becfd9;
 }
 header {
   margin: 0;
@@ -25,7 +26,7 @@ header div {
   font-family: 'Cinzel', serif;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #becfd9;
+  background-color: #a8babe;
 }
 .button {
   display: inline-block;
@@ -66,9 +67,68 @@ nav li a {
 }
 .panorama {
   width: 100%;
-  position: relative;
+  padding: 0;
 }
+
 figure {
   margin: 0;
   padding: 0;
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  bottom: 5px;
+  font-size: 1em;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+figcaption p {
+  font-style: italic;
+  font-size: 0.7em;
+}
+h2 {
+  font-family: 'Cinzel', serif;
+}
+h3 {
+  font-family: 'Cinzel', serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  text-align: left;
+}
+img {
+  width: 100%;
+  padding: 25px 15px;
+}
+
+dl div {
+  float: left;
+  width: 32%;
+  font-size: 0.8em;
+  padding: 10px 5px;
+  text-align: left;
+}
+.learn {
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #717371;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 0.8em;
+}
+dl {
+  display: inline-block;
+}
+dd {
+  margin: 0;
+}
+.info {
+  width: 100%;
+
 }
