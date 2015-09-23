@@ -212,3 +212,52 @@ footer a {
   text-decoration: none;
   color: #4f4a4a;
 }
+@media only screen and (min-width: 36em) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .logo {
+    margin-top: 20px;
+  }
+  .giza {
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .babylon {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+  }
+  .babylon img {
+    margin-bottom: .5em;
+  }
+  .temple {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+  }
+  .zeus {
+    width: 50%;
+    float: left;
+  }
+  .mauso {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+  }
+  .mauso img {
+    margin-bottom: 1.2em;
+  }
+  .rhodes {
+    width: 50%;
+    float: left;
+  }
+  .light {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+
+  }
+}
