@@ -326,3 +326,55 @@ footer a {
     padding: 0 0 0 10px;
   }
 }
+@media only screen and (min-width: 56em) {
+  .giza {
+    width: 33%;
+    display: block;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-bottom: 2em;
+  }
+  .babylon {
+    width: 33%;
+    float: left;
+    padding-bottom: 2em;
+    background-color: #eaf1f5;
+  }
+  .babylon img {
+    padding-bottom: 2.1em;
+  }
+  .temple {
+    width: 33%;
+    float: left;
+    padding-bottom: 2em;
+  }
+  .zeus {
+    width: 33%;
+    float: left;
+    padding-bottom: 2em;
+  }
+  .zeus img {
+    padding-top: 0;
+  }
+  .mauso {
+    width: 33%;
+    float: left;
+    padding-bottom: 3em;
+    background-color: #eaf1f5;
+  }
+  .mauso img {
+    padding-bottom: 1.5em;
+  }
+  .rhodes {
+    width: 33%;
+    float: left;
+    padding-bottom: 2em;
+    background-color: #eaf1f5;
+  }
+  .light {
+    width: 33%;
+    float: left;
+    padding-bottom: 4em;
+
+  }
+}
