@@ -90,10 +90,19 @@ figcaption p {
   font-style: italic;
   font-size: 0.7em;
 }
+.seven {
+  background-color: #8b6969;
+  color: #fff;
+  margin: -7px 0 0 0;
+  padding: 1em 0;
+}
 h2 {
   font-family: 'Cinzel', serif;
   font-size: 1em;
   margin: 10px 0 0 0;
+}
+h2#weekly {
+  margin: -5px 0 0 0;
 }
 h3 {
   font-family: 'Cinzel', serif;
@@ -141,7 +150,7 @@ dd {
   padding: 5px;
 }
 .buy p{
-  font-size: 0.8em;
+
 }
 .prices a {
   text-decoration: none;
@@ -153,6 +162,7 @@ dd {
   background-color: #8b6969;
   color: #fff;
   margin: 15px 0 0 0;
+  padding: 1em 0;
 }
 .atlantis {
   padding: 0;
@@ -219,6 +229,7 @@ footer a {
   h2 {
     font-size: 1.4rem;
   }
+
   .button {
     margin-top: 25px;
   }
@@ -230,7 +241,7 @@ footer a {
     display: block;
     margin-left: 25%;
     margin-right: 25%;
-    margin-bottom: 2em;
+    padding-bottom: 2em;
   }
   .babylon {
     width: 50%;
@@ -271,5 +282,47 @@ footer a {
     float: left;
     padding-bottom: 4em;
 
+  }
+  .buy {
+    width: 50%;
+    float: left;
+    padding-bottom: 1em;
+  }
+  .member {
+    width: 50%;
+    float: left;
+    padding-bottom: 1em;
+  }
+  .playing {
+    display: block;
+    clear: both;
+  }
+  .member p {
+    padding-bottom: 1.5em;
+  }
+  div p {
+    padding: 0 1em;
+  }
+  .days h3 {
+    text-align: center;
+  }
+  .days {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+  aside {
+    padding: 15px 0 0 10px;
+    text-align: center;
+  }
+  footer ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+  }
+  footer p {
+    text-align: center;
+    padding: 0 0 0 10px;
   }
 }
