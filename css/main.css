@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
 }
@@ -332,7 +338,7 @@ footer a {
   }
 }
 @media only screen and (min-width: 56em) {
-  
+
   .giza {
     width: 33%;
     display: block;
@@ -383,4 +389,23 @@ footer a {
     padding-bottom: 4em;
 
   }
+}
+@media only screen and (min-width: 80em) {
+  .masthead {
+    width: 35%;
+    float: left;
+  }
+  nav {
+    float: right;
+    width: 65%;
+  }
+  footer {
+    width: 100%;
+    clear: both;
+  }
+  .nav li {
+    height: 113px;
+    padding-top: 2.6em;
+  }
+
 }
