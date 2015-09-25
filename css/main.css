@@ -407,5 +407,20 @@ footer a {
     height: 113px;
     padding-top: 2.6em;
   }
+  footer {
+    overflow: hidden;
+  }
+  footer a {
+    background-color: #eaf1f5;
+    padding: 1em;
+    display: inline;
+  }
+  footer ul li {
+    display: inline;
+    margin-bottom: 2em;
+  }
+  address {
+    display: inline;
+  }
 
 }
