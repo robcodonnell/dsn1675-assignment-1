@@ -222,7 +222,12 @@ footer a {
   text-decoration: none;
   color: #4f4a4a;
 }
+
 @media only screen and (min-width: 36em) {
+  body {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
   header h1 {
     font-size: 1.7rem;
   }
@@ -246,7 +251,7 @@ footer a {
   .babylon {
     width: 50%;
     float: left;
-    padding-bottom: 2em;
+    padding-bottom: 1.9em;
     background-color: #a8babe;
   }
   .babylon img {
@@ -280,7 +285,7 @@ footer a {
   .light {
     width: 50%;
     float: left;
-    padding-bottom: 4em;
+    padding-bottom: 4.3em;
 
   }
   .buy {
@@ -298,7 +303,7 @@ footer a {
     clear: both;
   }
   .member p {
-    padding-bottom: 1.5em;
+    padding-bottom: 1.7em;
   }
   div p {
     padding: 0 1em;
@@ -327,6 +332,7 @@ footer a {
   }
 }
 @media only screen and (min-width: 56em) {
+  
   .giza {
     width: 33%;
     display: block;
